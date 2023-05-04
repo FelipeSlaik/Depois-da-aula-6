@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2? family= IBM+Plex+Mono:ital,wght@0,400;1,100 & family= Nunito:ital,wght@0,200;0,400;0,600; 0,900;1,200;1,400;1,600;1,900 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+#home .header {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100vw - 17px);
+    position: sticky;
+    top: 0;
+    background-color: rgb(240, 100, 6);
+
+}
+#home .header .logo-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-left: 5%;
+    
+}
+#home .header .header-logo {
+    width: 20%;
+    height: auto;
+}
+#home .header .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%
+}
+#home .header .menu-item {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+#home .header .menu-item:hover{
+    color: blue;
+
+}
+#home .social-media {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding-right: 5%;
+    
+}
+
+#home {
+background-color: rgb(138, 86, 19);
+}  
+#home .banner{
+height: 100vh;
+background: url(../imagens/4\ cavaleiros\ de\ Gwyn.jpg) no-repeat;
+background-size: cover;
+} 
+#home .title {
+color: white;
+}
+#home .subtitle{
+color: white;
+}
+#home .description{
+color: gold
+}
