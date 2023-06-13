@@ -1,0 +1,52 @@
+.common-container-default {
+  padding: 60px 10%;
+}
+
+
+.common-title-dark {
+
+  padding-bottom: 60px;
+  font-size: var(--font-size-title);
+  text-transform: capitalize;
+}
+
+.common-title-dark.small-padding {
+  padding-bottom: 30px;
+}
+
+.common-title-dark.large-padding {
+  padding-bottom: 90px;
+}
+
+.common-title-dark span {
+  color: var(--color-font-palavra);
+}
+
+.common-title-light {
+  color: var(--color-font-light);
+  font-size: var(--font-size-title);
+  text-transform: capitalize;
+}
+
+.common-title-light.small-padding {
+  padding-bottom: 30px;
+}
+
+.Common-link-gradient {
+  transition: all 1s linear;
+  color: var(--color-font-highlight);
+  font-size: 16px;
+  font-weight: 400;
+  background-image: var(--gradient-primary-fallback);
+  background-image: var(--gradient-primary);
+  padding: 10px, 20px;
+  margin-top: 15px;
+  max-width: 200px;
+  align-self: center;
+  text-decoration: none;
+}
+
+.Common-link-gradient:hover {
+  background-image: var(--gradient-primary-reverse);
+
+}
