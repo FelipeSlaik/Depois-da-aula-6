@@ -1,8 +1,5 @@
 :root {
 
-    /*tamanho de fontes */
-    --font-size-title: 30px;
-
     /* Cores de Fonte*/
     --color-font-light: #ffffff;
     --color-font-dark: #000000;
@@ -25,4 +22,7 @@
     --gradient-primary-back: #ffffff;
     --gradient-primary-transparent: linear-gradient (90deg, rgb(1, 199, 34, 0.7) 45%,
             rgb(81, 255, 1, 0.7)100%);
-}
+
+
+    /*tamanho de fontes*/
+    --font-size-title: 30px;}
