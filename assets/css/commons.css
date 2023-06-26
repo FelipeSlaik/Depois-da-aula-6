@@ -39,7 +39,7 @@
   font-weight: 700;
   background-image: var(--gradient-primary-fallback);
   background-image: var(--gradient-primary);
-  padding:clamp(1rem, 1.3vw, 2rem) clamp(1.5rem, 2vw, 3rem);
+  padding:clamp(0.7rem, 1.3vw, 1.4rem) clamp(1.5rem, 2vw, 3rem);
   margin-top:clamp(1rem, 2vw, 3rem);
   max-width:18.75rem;
   align-self: center;
